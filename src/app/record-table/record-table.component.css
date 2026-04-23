@@ -1,0 +1,52 @@
+.bank-header {
+  background: linear-gradient(135deg, #1a3a5c 0%, #2563a8 100%);
+  color: white;
+  border-radius: 12px;
+}
+
+.bank-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.bank-icon {
+  font-size: 1.8rem;
+}
+
+.sortable-header {
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.sortable-header:hover {
+  background-color: #495057 !important;
+  color: #ffc107;
+}
+
+.sort-icon {
+  font-size: 0.85rem;
+  color: #ffc107;
+}
+
+.description-cell {
+  max-width: 320px;
+  font-size: 0.875rem;
+  word-break: break-word;
+}
+
+.table thead th {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.badge {
+  font-size: 0.78rem;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
